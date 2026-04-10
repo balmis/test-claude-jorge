@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-claude-bg text-claude-warm font-sans;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-claude-bg;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-claude-border rounded-full;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-claude-orange hover:bg-claude-orangeLight text-white font-semibold px-6 py-3 rounded-xl transition-all duration-200 inline-flex items-center gap-2;
+  }
+  .btn-secondary {
+    @apply border border-claude-border hover:border-claude-orange text-claude-warm hover:text-claude-orange font-medium px-6 py-3 rounded-xl transition-all duration-200 inline-flex items-center gap-2;
+  }
+  .card {
+    @apply bg-claude-card border border-claude-border rounded-2xl p-6 hover:border-claude-orange/40 transition-all duration-200;
+  }
+  .code-block {
+    @apply bg-claude-bg border border-claude-border rounded-xl p-4 font-mono text-sm text-green-400 overflow-x-auto;
+  }
+  .section-title {
+    @apply text-3xl font-bold text-claude-warm mb-3;
+  }
+  .section-subtitle {
+    @apply text-claude-muted text-lg mb-10;
+  }
+  .step-number {
+    @apply w-9 h-9 rounded-full bg-claude-orange/20 border border-claude-orange/40 text-claude-orange font-bold text-sm flex items-center justify-center flex-shrink-0;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold;
+  }
+}

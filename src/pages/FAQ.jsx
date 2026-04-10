@@ -17,7 +17,7 @@ const faqGroups = [
       },
       {
         q: '¿Es gratuito?',
-        a: 'Claude Code está disponible con el plan gratuito de claude.ai con un límite de uso mensual. Para uso intensivo (proyectos grandes, muchas consultas al día), los planes de pago ofrecen más capacidad. Para la mayoría de los estudiantes, el plan gratuito es más que suficiente para las prácticas del ciclo.',
+        a: 'Claude Code NO es gratuito. Requiere una suscripción de pago de claude.ai: el plan Pro (20 $/mes) es el mínimo necesario. El plan gratuito de claude.ai NO incluye acceso a Claude Code. Para el aula, se recomienda que cada estudiante evalúe si le compensa el coste según el uso que vaya a darle. Anthropic puede cambiar estos precios, así que conviene consultar siempre la página oficial de precios en claude.ai.',
       },
       {
         q: '¿Qué lenguajes de programación soporta?',
